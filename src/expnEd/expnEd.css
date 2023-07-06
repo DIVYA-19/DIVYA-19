@@ -1,0 +1,51 @@
+.heading {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.expned {
+    margin-top: 70px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+
+.exp {
+    color: #fff;
+    text-align: left;
+}
+
+.year {
+    background-color: rgb(58, 58, 58);
+    padding: 2px 8px;
+    display: inline;
+    margin-left: 6px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    color: rgb(185, 185, 185);
+}
+
+.title {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.desc {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.desc, .title {
+    padding-left: 5px;
+}
+
+.icon-exp {
+    background-color: #ffb400;
+    border: none;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

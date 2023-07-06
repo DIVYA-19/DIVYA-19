@@ -1,0 +1,81 @@
+.container {
+    color: #fff;
+    width: 100%;
+    margin-top: 60px;
+    padding-left: 90px;
+}
+
+input[type=text] {
+    border: 1px solid #111;
+    width: 100%;
+    background: #252525;
+    color: #fff;
+    padding: 11px 26px;
+    border-radius: 30px;
+    outline: none!important;
+    transition: .3s;
+}
+
+input[type=text]:focus, textarea:focus {
+    border-color: #ffb400;
+}
+
+textarea {
+    border: 1px solid #111;
+    background: #252525;
+    color: #fff;
+    width: 100%;
+    padding: 12px 26px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 30px;
+    outline: none!important;
+    transition: .3s;
+    resize: vertical;
+}
+
+.address-icon {
+    color: #ffb400;
+    font-size: 40px !important;
+}
+
+.contact-detail {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.custom-btn {
+    margin-bottom: 80px;
+}
+
+.contact-detail > .icon {
+    background-color: #3d3d3d;
+    font-size: 19px;
+}
+
+.icon-btn:hover {
+    background-color: #ffb400;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #b6b6b6;
+    color: rgb(0, 0, 0);
+}
+
+.alert-title {
+    font-size: 1.5rem;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.alert-message {
+    margin: 13px 15px;
+    font-size: 1rem;
+    width: 200px;
+    text-align: center;
+}
